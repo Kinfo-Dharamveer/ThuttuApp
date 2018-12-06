@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#f9f9f9"
+    tools:context=".fragments.mostly_fragment.MostlyFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/_3sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recent_searched"
+            android:padding="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:textColor="#515050"/>
+
+        <TextView
+            android:id="@+id/txtClearSearch"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:layout_marginRight="@dimen/_3sdp"
+            android:padding="@dimen/_2sdp"
+            android:textColor="#515050"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_width="match_parent"
+        android:layout_height="1.3dp"
+        android:background="#7e7d7d"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewSearch"
+        android:padding="@dimen/_3sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+</LinearLayout>

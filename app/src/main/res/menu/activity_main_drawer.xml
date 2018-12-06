@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_latestdeals"
+            android:icon="@drawable/ic_latestdeals"
+            android:title="Latest Deals" />
+        <item
+            android:id="@+id/nav_featureddeals"
+            android:icon="@drawable/ic_featuredeals"
+            android:title="Featured Deals" />
+        <item
+            android:id="@+id/nav_recentcomments"
+            android:icon="@drawable/ic_recentcomments"
+            android:title="Recent Comments" />
+        <item
+            android:id="@+id/nav_saveddeals"
+            android:icon="@drawable/ic_saveddeals"
+            android:title="Saved Deals" />
+
+        <item
+            android:id="@+id/nav_rechargedeals"
+            android:icon="@drawable/ic_phone"
+            android:title="Recharge Deals" />
+    </group>
+
+    <group
+        android:id="@+id/menu_center"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_stores"
+            android:icon="@drawable/ic_store"
+            android:title="Stores" >
+        </item>
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="Search" >
+        </item>
+    </group>
+
+
+
+    <item android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:iconTint="@color/colorPrimary"
+                android:title="Settings"
+                />
+            <item
+                android:id="@+id/nav_notifications"
+                android:icon="@drawable/ic_notifications"
+                android:title="Notifications" />
+
+            <item
+                android:id="@+id/nav_swtichview"
+                android:icon="@drawable/ic_switchview"
+                android:title="Switch View" />
+
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_aboutus"
+                android:title="About us" />
+
+            <item
+                android:id="@+id/nav_privacypolicy"
+                android:icon="@drawable/ic_privacypolicy"
+                android:title="Privacy Policy" />
+        </menu>
+    </item>
+
+</menu>

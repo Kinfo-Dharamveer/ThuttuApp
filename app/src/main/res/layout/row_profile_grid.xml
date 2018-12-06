@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeImageClick"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customborder">
+
+
+        <ImageView
+            android:id="@+id/imageRow"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@drawable/boss"
+            android:scaleType="fitXY"
+            android:padding="@dimen/_6sdp"/>
+    </RelativeLayout>
+
+</RelativeLayout>
